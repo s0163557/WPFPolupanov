@@ -21,6 +21,8 @@ namespace WPFPolupanov.Models
             this.release_date = release_date;
         }
 
+        public Series() { }
+
         public event PropertyChangedEventHandler? PropertyChanged;
     }
 }
